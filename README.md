@@ -1,3 +1,4 @@
 # piping
 practicing piping
-| cut -c 8- | sort | uniq -c | sort -nr | head
+history | cut -c 8- | sort | uniq -c | sort -nr | head
+
